@@ -3,19 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\saccoshop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@arcade\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@arcade\\contracts\\service\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@arcade\\saccoshop\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@arcade\\saccoshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@arcade\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@arcade\\services\\shopitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@arcade\\contracts\\service\\ishopitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@arcade\\contracts\\service\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@arcade\\saccoshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@arcade\\repository\\context\\roomseeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@arcade\\repository\\repos\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@arcade\\contracts\\repo\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@arcade\\repository\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -31,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\Repository\\context\\ApplicationDbContext.cs",
@@ -53,59 +70,139 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\saccoshop\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\ServiceExtensions.cs",
               "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\saccoshop\\Extensions\\ServiceExtensions.cs",
               "RelativeToolTip": "Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T22:06:28.034Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\saccoshop\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\saccoshop\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAC8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-17T22:02:47.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\saccoshop\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\saccoshop\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T22:01:25.199Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\ServiceManager.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ServiceManager.cs",
+              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\ServiceManager.cs",
+              "RelativeToolTip": "..\\Services\\ServiceManager.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:40:44.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopItemService.cs",
+              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\ShopItemService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ShopItemService.cs",
+              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\ShopItemService.cs",
+              "RelativeToolTip": "..\\Services\\ShopItemService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:36:43.542Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RoomSeedData.cs",
-              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\context\\RoomSeedData.cs",
-              "RelativeDocumentMoniker": "..\\Repository\\context\\RoomSeedData.cs",
-              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\context\\RoomSeedData.cs",
-              "RelativeToolTip": "..\\Repository\\context\\RoomSeedData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\RoomService.cs",
+              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\RoomService.cs",
+              "RelativeToolTip": "..\\Services\\RoomService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T22:00:37.589Z",
+              "WhenOpened": "2025-07-17T23:34:30.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IServiceManager.cs",
+              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Service\\IServiceManager.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\Service\\IServiceManager.cs",
+              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Service\\IServiceManager.cs",
+              "RelativeToolTip": "..\\Contracts\\Service\\IServiceManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:32:32.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "IShopItemService.cs",
+              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Service\\IShopItemService.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\Service\\IShopItemService.cs",
+              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Service\\IShopItemService.cs",
+              "RelativeToolTip": "..\\Contracts\\Service\\IShopItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:32:00.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Service\\IRoomService.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\Service\\IRoomService.cs",
+              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Service\\IRoomService.cs",
+              "RelativeToolTip": "..\\Contracts\\Service\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:31:30.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repos\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Repos\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repos\\RepositoryManager.cs",
+              "RelativeToolTip": "..\\Repository\\Repos\\RepositoryManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:19:20.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Repo\\IRepositoryManager.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\Repo\\IRepositoryManager.cs",
+              "ToolTip": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Repo\\IRepositoryManager.cs",
+              "RelativeToolTip": "..\\Contracts\\Repo\\IRepositoryManager.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T23:16:23.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Models\\Room.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Models\\Room.cs",
