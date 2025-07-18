@@ -2823,23 +2823,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DARC\\.nuget\\packages\\": {},
+    "C:\\Users\\Darc\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\Services.csproj",
-      "packagesPath": "C:\\Users\\DARC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\obj\\",
+      "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\Darc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DARC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Darc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2855,17 +2855,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj": {
-              "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj"
+            "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj": {
+              "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj"
             },
-            "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj"
+            "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\DARC\\source\\repos\\@arcade\\LoggerService\\LoggerService.csproj": {
-              "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\LoggerService\\LoggerService.csproj"
+            "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\LoggerService.csproj": {
+              "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\LoggerService.csproj"
             },
-            "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repository.csproj": {
-              "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repository.csproj"
+            "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repository.csproj"
             }
           }
         }
@@ -2879,7 +2879,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -2900,16 +2901,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

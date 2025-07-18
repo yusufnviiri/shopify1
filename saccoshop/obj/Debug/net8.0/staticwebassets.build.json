@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "a1AXuECIsC3HqAO3JMRdjTrvSSrJ2vaRRWEi5UGlJU8=",
-  "Source": "saccoshop",
-  "BasePath": "_content/saccoshop",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"PYPi4+1iJ2KU3oLs5dijojL+v5NwfX3khBPzFQn+Eq4=","Source":"saccoshop","BasePath":"_content/saccoshop","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

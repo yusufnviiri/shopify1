@@ -1,7 +1,11 @@
 ﻿using Contracts;
 using Contracts.Repo;
+using Contracts.Service;
 using LoggerService;
+using Microsoft.EntityFrameworkCore;
+using Repository.context;
 using Repository.Repos;
+using Services;
 
 namespace saccoshop.Extensions
 {
@@ -25,6 +29,14 @@ namespace saccoshop.Extensions
  services.AddSingleton<ILoggerManager, LoggerManager>();
         public static void ConfigureRepositoryManager(this IServiceCollection services) =>
  services.AddScoped<IRepositoryManager, RepositoryManager>();
+        public static void ConfigureServiceManager(this IServiceCollection services) =>
+services.AddScoped<IServiceManager, ServiceManager>();
+        public static void ConfigureSqlContext(this IServiceCollection services,
+IConfiguration configuration) =>
+services.AddDbContext<ApplicationDbContext>(opts =>
+opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+
 
 
     }

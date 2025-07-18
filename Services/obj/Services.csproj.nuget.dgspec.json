@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\Services.csproj": {}
+    "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj": {
+    "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\DARC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\obj\\",
+        "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\Darc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DARC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Darc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +66,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj": {
+    "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\DARC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Darc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DARC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Darc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,7 +110,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -130,24 +132,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DARC\\source\\repos\\@arcade\\LoggerService\\LoggerService.csproj": {
+    "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\LoggerService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DARC\\source\\repos\\@arcade\\LoggerService\\LoggerService.csproj",
+        "projectUniqueName": "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\LoggerService.csproj",
         "projectName": "LoggerService",
-        "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\LoggerService\\LoggerService.csproj",
-        "packagesPath": "C:\\Users\\DARC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\LoggerService\\obj\\",
+        "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\LoggerService.csproj",
+        "packagesPath": "C:\\Users\\Darc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DARC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Darc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -163,8 +165,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -178,7 +180,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -205,24 +208,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repository.csproj": {
+    "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repository.csproj",
         "projectName": "Repository",
-        "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repository.csproj",
-        "packagesPath": "C:\\Users\\DARC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\obj\\",
+        "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\Darc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DARC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Darc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -238,11 +241,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj"
+              "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj"
               }
             }
           }
@@ -256,7 +259,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -299,24 +303,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\Services.csproj": {
+    "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\DARC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Services\\obj\\",
+        "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Darc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DARC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Darc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -332,17 +336,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj": {
-                "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Contracts\\Contracts.csproj"
+              "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj": {
+                "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Contracts.csproj"
               },
-              "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Entities\\Entities.csproj"
+              "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj"
               },
-              "C:\\Users\\DARC\\source\\repos\\@arcade\\LoggerService\\LoggerService.csproj": {
-                "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\LoggerService\\LoggerService.csproj"
+              "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\LoggerService.csproj": {
+                "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\LoggerService.csproj"
               },
-              "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repository.csproj": {
-                "projectPath": "C:\\Users\\DARC\\source\\repos\\@arcade\\Repository\\Repository.csproj"
+              "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repository.csproj"
               }
             }
           }
@@ -356,7 +360,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -377,7 +382,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
