@@ -11,6 +11,8 @@ namespace saccoshop
         {           //sorce,destination
             CreateMap<Room, RoomDto>();
             CreateMap<NewRoomDto, Room>();
+            CreateMap<ShopItem, ShopItemDto>();
+            CreateMap<NewShopItemDto, ShopItem>();
 
         }
     }

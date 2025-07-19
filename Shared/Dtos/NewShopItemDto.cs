@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Shared.Dtos
 {
-          public record NewShopItemDto(string ShopItemName, string ShopItemDescription) { }
+          public record NewShopItemDto(string ShopItemName, string ShopItemDescription, int RoomId) { }
 }
