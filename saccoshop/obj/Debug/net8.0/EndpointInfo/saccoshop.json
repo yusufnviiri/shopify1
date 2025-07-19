@@ -15,8 +15,79 @@
             "description": "Success"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "Room"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewRoomDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewRoomDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/NewRoomDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/rooms/{id}": {
+      "get": {
+        "tags": [
+          "Room"
+        ],
+        "operationId": "RoomById",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "NewRoomDto": {
+        "type": "object",
+        "properties": {
+          "roomName": {
+            "type": "string",
+            "nullable": true
+          },
+          "roomOwner": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

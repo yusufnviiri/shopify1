@@ -10,5 +10,7 @@ namespace Contracts.Repo
   public interface IRoomRepo
     {
         IEnumerable<Room>GetAllRooms(bool trackChanges);
+        Room FindRoom(int id,bool trackChanges);
+        void CreateRoom(Room room);
     }
 }

@@ -19,6 +19,5 @@ namespace Repository.context
         }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<ShopItem> ShopItems { get; set; }
-
     }
 }

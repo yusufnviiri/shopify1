@@ -16,5 +16,13 @@ namespace Repository.Repos
           
         }
         public IEnumerable<Room> GetAllRooms(bool tracking) => [.. FindAll(tracking).OrderBy(k=>k.RoomOwner)];
+        public Room FindRoom(int id, bool trackChanges)
+        {
+            var room = FindByCondition((k=>k.RoomId.Equals(id)),trackChanges);
+            return room.FirstOrDefault();
+        }
+        public void CreateRoom(Room room)=>CreateBase(room);
+
+
     }
 }

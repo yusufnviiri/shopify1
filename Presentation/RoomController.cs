@@ -1,5 +1,6 @@
 ﻿using Contracts.Service;
 using Microsoft.AspNetCore.Mvc;
+using Shared.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,16 +21,28 @@ namespace Presentation
             _service = service;
         }
         [HttpGet]
-        public ActionResult GetAllRooms() {
-      
-                var rooms = _service.RoomService.GetAllRoomsService(false);
-                return Ok(rooms);       
-        
+        public ActionResult GetAllRooms()
+        {
+
+            var rooms = _service.RoomService.GetAllRoomsService(false);
+            return Ok(rooms);
+
         }
-        [HttpGet("{id:int}")]
+        [HttpGet("{id:int}", Name = "RoomById")]
         public ActionResult GetRoom(int id)
-        { }
-
-
+        {
+            var room = _service.RoomService.FindRoomsService(id, false);
+            return Ok(room);
         }
+        [HttpPost]
+        public async Task<IActionResult> CreateRoom([FromBody] NewRoomDto room)
+        {
+            if (room is null)
+                return BadRequest("RoomDto object is null");
+            var createdRoom =await _service.RoomService.AddRoom(room);
+            return CreatedAtRoute("RoomById", new { id = createdRoom.RoomId }, createdRoom);
+        }
+
+
+    }
 }
