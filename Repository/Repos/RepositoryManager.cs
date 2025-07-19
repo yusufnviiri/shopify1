@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Repository.Repos
 {
-   public abstract class RepositoryManager:IRepositoryManager
+    public class RepositoryManager : IRepositoryManager
     {
         private readonly Lazy<IRoomRepo> _roomRepo;
         private readonly Lazy<IShopItemRepo> _shopItemRepo;

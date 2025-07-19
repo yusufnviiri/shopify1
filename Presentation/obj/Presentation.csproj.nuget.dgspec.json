@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

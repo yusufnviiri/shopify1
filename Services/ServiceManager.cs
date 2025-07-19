@@ -1,4 +1,5 @@
-﻿using Contracts.Repo;
+﻿using Contracts;
+using Contracts.Repo;
 using Contracts.Service;
 using NLog;
 using System;
@@ -13,7 +14,7 @@ namespace Services
     {
         private readonly Lazy<IRoomService> _roomService;
         private readonly Lazy<IShopItemService> _shopItem;
-        public ServiceManager(ILogger logger,IRepositoryManager repository)
+        public ServiceManager(ILoggerManager logger,IRepositoryManager repository)
         {
             _roomService = new Lazy<IRoomService>(()=>new RoomService(logger,repository));
             _shopItem = new Lazy<IShopItemService>(() => new ShopItemService(logger, repository));

@@ -1,5 +1,7 @@
-﻿using Contracts.Repo;
+﻿using Contracts;
+using Contracts.Repo;
 using Contracts.Service;
+using Entities.Models;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -11,12 +13,25 @@ namespace Services
 {
     internal sealed class RoomService:IRoomService
     {
-        private readonly ILogger _logger;
+        private readonly ILoggerManager _logger;
         private readonly IRepositoryManager _repoManager;
-        public RoomService(ILogger logger, IRepositoryManager repository)
+        public RoomService(ILoggerManager logger, IRepositoryManager repository)
         {
             _logger = logger;
             _repoManager = repository;
+        }
+        public IEnumerable<Room> GetAllRoomsService(bool tracking)
+        {
+            try
+            {
+                var rooms = _repoManager.RoomRepo.GetAllRooms(tracking);
+                return rooms;
+            }
+            catch (Exception ex) {
+
+                _logger.LogError($"Something went wrong in {nameof(GetAllRoomsService)} service method {ex}");
+                throw;
+            }
         }
     }
 }

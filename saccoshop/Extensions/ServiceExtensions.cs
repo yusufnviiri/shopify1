@@ -25,19 +25,14 @@ namespace saccoshop.Extensions
      services.Configure<IISOptions>(options =>
      {
      });
-        public static void ConfigureLoggerService(this IServiceCollection services) =>
- services.AddSingleton<ILoggerManager, LoggerManager>();
-        public static void ConfigureRepositoryManager(this IServiceCollection services) =>
- services.AddScoped<IRepositoryManager, RepositoryManager>();
-        public static void ConfigureServiceManager(this IServiceCollection services) =>
-services.AddScoped<IServiceManager, ServiceManager>();
-        public static void ConfigureSqlContext(this IServiceCollection services,
-IConfiguration configuration) =>
-services.AddDbContext<ApplicationDbContext>(opts =>
-opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+        public static void ConfigureLoggerService(this IServiceCollection services) => services.AddSingleton<ILoggerManager, LoggerManager>();
+        public static void ConfigureRepositoryManager(this IServiceCollection services) => services.AddScoped<IRepositoryManager, RepositoryManager>();
+        public static void ConfigureServiceManager(this IServiceCollection services) =>services.AddScoped<IServiceManager, ServiceManager>();
+        //        public static void ConfigureSqlContext(this IServiceCollection services,
+        //IConfiguration configuration) =>services.AddDbContext<ApplicationDbContext>(opts =>opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
-
-
+        public static void ConfigureSqlContext(this IServiceCollection services, IConfiguration configuration) =>services.AddDbContext<ApplicationDbContext>(opts =>opts.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+        //public static void ConfigureSqlContext1(this IServiceCollection services,  IConfiguration configuration) => services.AddSqlServer<ApplicationDbContext>((configuration.GetConnectionString("DefaultConnection")));
 
     }
 }

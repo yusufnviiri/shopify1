@@ -18,7 +18,9 @@ C:\Users\Darc\source\repos\@shopify\LoggerService\bin\Debug\net8.0\LoggerService
 C:\Users\Darc\source\repos\@shopify\LoggerService\bin\Debug\net8.0\LoggerService.dll
 C:\Users\Darc\source\repos\@shopify\LoggerService\bin\Debug\net8.0\LoggerService.pdb
 C:\Users\Darc\source\repos\@shopify\LoggerService\bin\Debug\net8.0\Contracts.dll
+C:\Users\Darc\source\repos\@shopify\LoggerService\bin\Debug\net8.0\Entities.dll
 C:\Users\Darc\source\repos\@shopify\LoggerService\bin\Debug\net8.0\Contracts.pdb
+C:\Users\Darc\source\repos\@shopify\LoggerService\bin\Debug\net8.0\Entities.pdb
 C:\Users\Darc\source\repos\@shopify\LoggerService\obj\Debug\net8.0\LoggerService.csproj.AssemblyReference.cache
 C:\Users\Darc\source\repos\@shopify\LoggerService\obj\Debug\net8.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Darc\source\repos\@shopify\LoggerService\obj\Debug\net8.0\LoggerService.AssemblyInfoInputs.cache

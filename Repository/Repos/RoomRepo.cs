@@ -13,7 +13,8 @@ namespace Repository.Repos
     {
         public RoomRepo(ApplicationDbContext context): base(context)
         {
-            
+          
         }
+        public IEnumerable<Room> GetAllRooms(bool tracking) => [.. FindAll(tracking).OrderBy(k=>k.RoomOwner)];
     }
 }

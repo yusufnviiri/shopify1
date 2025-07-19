@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "Presentation.RoomController",
+    "Method": "GetAllRooms",
+    "RelativePath": "api/rooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
