@@ -27,18 +27,11 @@ namespace Services
         }
         public IEnumerable<RoomDto> GetAllRoomsService(bool tracking)
         {
-            try
-            {
-                var rooms = _repoManager.RoomRepo.GetAllRooms(tracking);
+
+            var rooms = _repoManager.RoomRepo.GetAllRooms(tracking);
                 var roomsDto = _mapper.Map<IEnumerable<RoomDto>>(rooms);
-
-                return roomsDto;
-            }
-            catch (Exception ex) {
-
-                _logger.LogError($"Something went wrong in {nameof(GetAllRoomsService)} service method {ex}");
-                throw;
-            }
+                return roomsDto;     
+            
         }
     }
 }

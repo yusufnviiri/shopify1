@@ -21,18 +21,15 @@ namespace Presentation
         }
         [HttpGet]
         public ActionResult GetAllRooms() {
-            try
-            {
+      
                 var rooms = _service.RoomService.GetAllRoomsService(false);
-                return Ok(rooms);
-            }
-            catch
-            {
-                return StatusCode(500,"internal server error");
-            }
+                return Ok(rooms);       
         
         }
+        [HttpGet("{id:int}")]
+        public ActionResult GetRoom(int id)
+        { }
 
 
-    }
+        }
 }
