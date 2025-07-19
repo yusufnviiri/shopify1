@@ -42,7 +42,12 @@ namespace Presentation
             var createdRoom =await _service.RoomService.AddRoom(room);
             return CreatedAtRoute("RoomById", new { id = createdRoom.RoomId }, createdRoom);
         }
-
+        [HttpGet("{roomId:int}/{id:int}")]
+        public ActionResult GetShopItem(int id, int roomId)
+        {
+            var item = _service.ShopItemService.FindRoomShopItemService(id, roomId, false);
+            return Ok(item);
+        }
 
     }
 }
