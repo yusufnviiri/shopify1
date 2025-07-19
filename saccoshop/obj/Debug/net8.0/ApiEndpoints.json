@@ -43,6 +43,27 @@
     "EndpointName": "RoomById"
   },
   {
+    "ContainingType": "Presentation.RoomController",
+    "Method": "GetShopItem",
+    "RelativePath": "api/rooms/{roomId}/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "roomId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Presentation.ShopItemController",
     "Method": "GetAllShopItems",
     "RelativePath": "api/shopItems",
