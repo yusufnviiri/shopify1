@@ -27,17 +27,17 @@ namespace Services
             _repoManager = repository;
             _mapper = mapper;
         }
-        public IEnumerable<RoomDto> GetAllRoomsService(bool tracking)
+        public async Task<IEnumerable<RoomDto>> GetAllRoomsService(bool tracking)
         {
 
-            var rooms = _repoManager.RoomRepo.GetAllRooms(tracking);
+            var rooms =await _repoManager.RoomRepo.GetAllRooms(tracking);
                 var roomsDto = _mapper.Map<IEnumerable<RoomDto>>(rooms);
                 return roomsDto;     
             
         }
-        public RoomDto FindRoomsService(int id, bool trackChanges)
+        public async Task<RoomDto> FindRoomsService(int id, bool trackChanges)
         {
-                  var room = _repoManager.RoomRepo.FindRoom(id,trackChanges);
+                  var room = await _repoManager.RoomRepo.FindRoom(id,trackChanges);
             if (room is null)
                 throw new RoomNotFoundException(id);
 

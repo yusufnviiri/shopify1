@@ -3,13 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E37078D-26E4-48B6-8F3D-8841A03D4B58}|..\\Presentation\\Presentation.csproj|c:\\users\\darc\\source\\repos\\@shopify\\presentation\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E37078D-26E4-48B6-8F3D-8841A03D4B58}|..\\Presentation\\Presentation.csproj|c:\\users\\darc\\source\\repos\\@shopify\\presentation\\shopitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\service\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\service\\ishopitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@shopify\\services\\shopitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -18,7 +12,44 @@
       "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@shopify\\repository\\repos\\shopitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\service\\ishopitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\repo\\ishopitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\requestfeatures\\pagedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\requestfeatures\\metadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\service\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E37078D-26E4-48B6-8F3D-8841A03D4B58}|..\\Presentation\\Presentation.csproj|c:\\users\\darc\\source\\repos\\@shopify\\presentation\\shopitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@shopify\\saccoshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\requestfeatures\\requestparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\requestfeatures\\roomparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\requestfeatures\\shopitemparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\models\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\dtos\\newshopitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@shopify\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@shopify\\repository\\repos\\roomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -27,68 +58,58 @@
       "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\repo\\iroomrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\service\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@shopify\\repository\\repos\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E37078D-26E4-48B6-8F3D-8841A03D4B58}|..\\Presentation\\Presentation.csproj|c:\\users\\darc\\source\\repos\\@shopify\\presentation\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@shopify\\saccoshop\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\repo\\ishopitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@shopify\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\dtos\\shopitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@shopify\\repository\\repos\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\service\\iservicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@shopify\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\dtos\\newshopitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\models\\shopitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\repo\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@shopify\\repository\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@shopify\\saccoshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\exceptions\\shopitemnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\exceptions\\roomnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\dtos\\newroomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@shopify\\repository\\repos\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\repo\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@shopify\\saccoshop\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@shopify\\saccoshop\\extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:extensions\\exceptionmiddlewareextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\exceptions\\collectionbyidsbadrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\exceptions\\idparametersbadrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\dtos\\shopitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\exceptions\\roomnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|c:\\users\\darc\\source\\repos\\@shopify\\saccoshop\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CED077F-4043-49AB-801B-B4191EC78E98}|..\\Entities\\Entities.csproj|c:\\users\\darc\\source\\repos\\@shopify\\entities\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -109,9 +130,6 @@
       "RelativeMoniker": "D:0:0:{C1494A3A-3588-4154-93B4-90B43525B2C8}|saccoshop.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DD9C04E6-593F-42AD-8DBE-B47BE69DDBF0}|..\\Contracts\\Contracts.csproj|c:\\users\\darc\\source\\repos\\@shopify\\contracts\\repo\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D21DB09C-92EB-40DB-B667-FD0FA61C5AD6}|..\\LoggerService\\LoggerService.csproj|c:\\users\\darc\\source\\repos\\@shopify\\loggerservice\\loggermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -128,7 +146,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Bookmark",
@@ -136,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "ServiceExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\Extensions\\ServiceExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\ServiceExtensions.cs",
@@ -149,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\Repository\\context\\ApplicationDbContext.cs",
@@ -163,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 20,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\MappingProfile.cs",
               "RelativeDocumentMoniker": "MappingProfile.cs",
@@ -177,13 +195,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T22:01:25.199Z",
               "IsPinned": true,
@@ -191,13 +209,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ShopItemController.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Presentation\\ShopItemController.cs",
               "RelativeDocumentMoniker": "..\\Presentation\\ShopItemController.cs",
               "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Presentation\\ShopItemController.cs",
               "RelativeToolTip": "..\\Presentation\\ShopItemController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCMAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwCkAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-19T15:06:29.92Z",
               "IsPinned": true,
@@ -205,13 +223,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 19,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Presentation\\RoomController.cs",
               "RelativeDocumentMoniker": "..\\Presentation\\RoomController.cs",
               "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Presentation\\RoomController.cs",
               "RelativeToolTip": "..\\Presentation\\RoomController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAcwDEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T20:49:00.337Z",
               "IsPinned": true,
@@ -219,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 21,
               "Title": "IServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Service\\IServiceManager.cs",
               "RelativeDocumentMoniker": "..\\Contracts\\Service\\IServiceManager.cs",
@@ -233,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "ServiceManager.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\ServiceManager.cs",
               "RelativeDocumentMoniker": "..\\Services\\ServiceManager.cs",
@@ -247,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "IRepositoryManager.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IRepositoryManager.cs",
               "RelativeDocumentMoniker": "..\\Contracts\\Repo\\IRepositoryManager.cs",
@@ -256,11 +274,12 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T20:54:47.12Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 18,
               "Title": "RepositoryManager.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\RepositoryManager.cs",
               "RelativeDocumentMoniker": "..\\Repository\\Repos\\RepositoryManager.cs",
@@ -269,58 +288,46 @@
               "ViewState": "AgIAAAwAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T19:06:43.19Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IRepositoryBase.cs",
-              "RelativeDocumentMoniker": "..\\Contracts\\Repo\\IRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IRepositoryBase.cs",
-              "RelativeToolTip": "..\\Contracts\\Repo\\IRepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "IRoomRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IRoomRepo.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\Repo\\IRoomRepo.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IRoomRepo.cs",
+              "RelativeToolTip": "..\\Contracts\\Repo\\IRoomRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:54:50.716Z",
-              "IsPinned": true
+              "WhenOpened": "2025-07-18T20:54:53.332Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RoomRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\RoomRepo.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Repos\\RoomRepo.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\RoomRepo.cs",
+              "RelativeToolTip": "..\\Repository\\Repos\\RoomRepo.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T20:59:41.124Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "..\\Repository\\Repos\\RepositoryBase.cs",
-              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\RepositoryBase.cs",
-              "RelativeToolTip": "..\\Repository\\Repos\\RepositoryBase.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:59:35.66Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IRoomService.cs",
-              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Service\\IRoomService.cs",
-              "RelativeDocumentMoniker": "..\\Contracts\\Service\\IRoomService.cs",
-              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Service\\IRoomService.cs",
-              "RelativeToolTip": "..\\Contracts\\Service\\IRoomService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:55:23.235Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "RoomService.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "..\\Services\\RoomService.cs",
               "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\RoomService.cs",
               "RelativeToolTip": "..\\Services\\RoomService.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T19:08:01.837Z",
               "IsPinned": true,
@@ -329,40 +336,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "IRoomRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IRoomRepo.cs",
-              "RelativeDocumentMoniker": "..\\Contracts\\Repo\\IRoomRepo.cs",
-              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IRoomRepo.cs",
-              "RelativeToolTip": "..\\Contracts\\Repo\\IRoomRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Service\\IRoomService.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\Service\\IRoomService.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Service\\IRoomService.cs",
+              "RelativeToolTip": "..\\Contracts\\Service\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:54:53.332Z",
+              "WhenOpened": "2025-07-18T20:55:23.235Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RoomRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\RoomRepo.cs",
-              "RelativeDocumentMoniker": "..\\Repository\\Repos\\RoomRepo.cs",
-              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\RoomRepo.cs",
-              "RelativeToolTip": "..\\Repository\\Repos\\RoomRepo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IShopItemRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IShopItemRepo.cs",
+              "RelativeDocumentMoniker": "..\\Contracts\\Repo\\IShopItemRepo.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IShopItemRepo.cs",
+              "RelativeToolTip": "..\\Contracts\\Repo\\IShopItemRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:59:41.124Z",
+              "WhenOpened": "2025-07-18T20:54:55.893Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "ShopItemRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\ShopItemRepo.cs",
+              "RelativeDocumentMoniker": "..\\Repository\\Repos\\ShopItemRepo.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\ShopItemRepo.cs",
+              "RelativeToolTip": "..\\Repository\\Repos\\ShopItemRepo.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA9wCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T20:59:43.452Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "IShopItemService.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Service\\IShopItemService.cs",
               "RelativeDocumentMoniker": "..\\Contracts\\Service\\IShopItemService.cs",
               "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Service\\IShopItemService.cs",
               "RelativeToolTip": "..\\Contracts\\Service\\IShopItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T20:55:28.46Z",
               "IsPinned": true,
@@ -370,13 +391,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ShopItemService.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\ShopItemService.cs",
               "RelativeDocumentMoniker": "..\\Services\\ShopItemService.cs",
               "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\ShopItemService.cs",
               "RelativeToolTip": "..\\Services\\ShopItemService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCAAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswDkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T21:00:49.693Z",
               "IsPinned": true,
@@ -385,34 +406,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ShopItemRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\ShopItemRepo.cs",
-              "RelativeDocumentMoniker": "..\\Repository\\Repos\\ShopItemRepo.cs",
-              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\ShopItemRepo.cs",
-              "RelativeToolTip": "..\\Repository\\Repos\\ShopItemRepo.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:59:43.452Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IShopItemRepo.cs",
-              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IShopItemRepo.cs",
-              "RelativeDocumentMoniker": "..\\Contracts\\Repo\\IShopItemRepo.cs",
-              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IShopItemRepo.cs",
-              "RelativeToolTip": "..\\Contracts\\Repo\\IShopItemRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T20:54:55.893Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Room.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Models\\Room.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Models\\Room.cs",
@@ -426,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 13,
               "Title": "ShopItem.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Models\\ShopItem.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Models\\ShopItem.cs",
@@ -440,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "RoomDto.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\Dtos\\RoomDto.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Dtos\\RoomDto.cs",
@@ -454,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
               "Title": "ShopItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\Dtos\\ShopItemDto.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Dtos\\ShopItemDto.cs",
@@ -468,7 +461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "NewShopItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\Dtos\\NewShopItemDto.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Dtos\\NewShopItemDto.cs",
@@ -481,6 +474,71 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PagedList.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\PagedList.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\PagedList.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\PagedList.cs",
+              "RelativeToolTip": "..\\Shared\\RequestFeatures\\PagedList.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T20:21:47.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MetaData.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\MetaData.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\MetaData.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\MetaData.cs",
+              "RelativeToolTip": "..\\Shared\\RequestFeatures\\MetaData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T20:21:39.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShopItemParameters.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\ShopItemParameters.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\ShopItemParameters.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\ShopItemParameters.cs",
+              "RelativeToolTip": "..\\Shared\\RequestFeatures\\ShopItemParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T19:44:11.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoomParameters.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\RoomParameters.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\RoomParameters.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\RoomParameters.cs",
+              "RelativeToolTip": "..\\Shared\\RequestFeatures\\RoomParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T19:41:11.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RequestParameters.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\RequestParameters.cs",
+              "RelativeDocumentMoniker": "..\\Shared\\RequestFeatures\\RequestParameters.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\RequestFeatures\\RequestParameters.cs",
+              "RelativeToolTip": "..\\Shared\\RequestFeatures\\RequestParameters.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T19:39:29.244Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
@@ -490,7 +548,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
+              "Title": "CollectionByIdsBadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\CollectionByIdsBadRequestException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\CollectionByIdsBadRequestException.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\CollectionByIdsBadRequestException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\CollectionByIdsBadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:06:01.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:04:41.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ShopItemNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\ShopItemNotFoundException.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\ShopItemNotFoundException.cs",
@@ -503,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "NewRoomDto.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\Dtos\\NewRoomDto.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Dtos\\NewRoomDto.cs",
@@ -516,7 +600,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
+              "Title": "ExceptionMiddlewareExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\ExceptionMiddlewareExtensions.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\Extensions\\ExceptionMiddlewareExtensions.cs",
+              "RelativeToolTip": "Extensions\\ExceptionMiddlewareExtensions.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T10:05:53.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IdParametersBadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\IdParametersBadRequestException.cs",
+              "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\IdParametersBadRequestException.cs",
+              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\IdParametersBadRequestException.cs",
+              "RelativeToolTip": "..\\Entities\\Exceptions\\IdParametersBadRequestException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T16:05:27.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "RoomNotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\RoomNotFoundException.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\RoomNotFoundException.cs",
@@ -529,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\Exceptions\\NotFoundException.cs",
               "RelativeDocumentMoniker": "..\\Entities\\Exceptions\\NotFoundException.cs",
@@ -541,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -553,19 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "ExceptionMiddlewareExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\Extensions\\ExceptionMiddlewareExtensions.cs",
-              "RelativeDocumentMoniker": "Extensions\\ExceptionMiddlewareExtensions.cs",
-              "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\Extensions\\ExceptionMiddlewareExtensions.cs",
-              "RelativeToolTip": "Extensions\\ExceptionMiddlewareExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T10:05:53.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "ErrorDetails.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Entities\\ErrorModel\\ErrorDetails.cs",
               "RelativeDocumentMoniker": "..\\Entities\\ErrorModel\\ErrorDetails.cs",
@@ -577,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "LoggerManager.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\LoggerService\\LoggerManager.cs",
               "RelativeDocumentMoniker": "..\\LoggerService\\LoggerManager.cs",
@@ -589,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "ILoggerManager.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\ILoggerManager.cs",
               "RelativeDocumentMoniker": "..\\Contracts\\ILoggerManager.cs",
@@ -601,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "RepositoryContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\ContextFactory\\RepositoryContextFactory.cs",
               "RelativeDocumentMoniker": "ContextFactory\\RepositoryContextFactory.cs",
@@ -613,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -625,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "RepositoryManager.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@arcade\\Repository\\Repos\\RepositoryManager.cs",
               "RelativeDocumentMoniker": "..\\..\\@arcade\\Repository\\Repos\\RepositoryManager.cs",

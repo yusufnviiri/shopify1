@@ -1,10 +1,12 @@
 ﻿using Contracts.Service;
 using Microsoft.AspNetCore.Mvc;
 using Shared.Dtos;
+using Shared.RequestFeatures;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace Presentation
@@ -20,24 +22,29 @@ namespace Presentation
             _service = service;
         }
         [HttpGet]
-        public ActionResult GetAllShopItems()
+        public async Task<ActionResult> GetAllShopItems()
         {
-
-            var items = _service.ShopItemService.GetAllShopItemsService(false);
+            var items =await _service.ShopItemService.GetAllShopItemsService(false);
             return Ok(items);
-
         }
         [HttpGet("{id:int}", Name = "ShopItemById")]
-        public ActionResult GetShopItem(int id)
+        public async Task<ActionResult> GetShopItem(int id)
         {
-            var room = _service.ShopItemService.FindShopItemService(id, false);
+            var room = await _service.ShopItemService.FindShopItemService(id, false);
             return Ok(room);
         }
         [HttpGet("{roomId:int}/{id:int}")]
-        public ActionResult GetShopItem(int id,int roomId)
+        public async Task<ActionResult> GetShopItem(int id,int roomId)
         {
-            var item = _service.ShopItemService.FindRoomShopItemService(id,roomId, false);
+            var item =await _service.ShopItemService.FindRoomShopItemService(id,roomId, false);
             return Ok(item);
+        }
+        [HttpGet("{roomId:int}")]
+        public async Task<ActionResult> GetRoomShopItems(int roomId , [FromQuery] ShopItemParameters shopItemParameters)
+        {
+            var pagedResult = await _service.ShopItemService.FindRoomShopItems(roomId, false, shopItemParameters);
+                Response.Headers.Add("X-Pagination",JsonSerializer.Serialize(pagedResult.metaData));
+            return Ok(pagedResult.shopItems);
         }
 
         [HttpPost]

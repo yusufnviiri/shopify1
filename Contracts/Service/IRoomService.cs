@@ -10,8 +10,8 @@ namespace Contracts.Service
 {
     public interface IRoomService
     {
-        IEnumerable<RoomDto> GetAllRoomsService(bool trackChanges);
-        RoomDto FindRoomsService(int id,bool trackChanges);
+       Task< IEnumerable<RoomDto>> GetAllRoomsService(bool trackChanges);
+       Task<RoomDto> FindRoomsService(int id,bool trackChanges);
          Task<RoomDto> AddRoom(NewRoomDto roomdto);
 
 

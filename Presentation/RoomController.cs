@@ -21,17 +21,17 @@ namespace Presentation
             _service = service;
         }
         [HttpGet]
-        public ActionResult GetAllRooms()
+        public async Task<ActionResult> GetAllRooms()
         {
 
-            var rooms = _service.RoomService.GetAllRoomsService(false);
+            var rooms = await _service.RoomService.GetAllRoomsService(false);
             return Ok(rooms);
 
         }
         [HttpGet("{id:int}", Name = "RoomById")]
-        public ActionResult GetRoom(int id)
+        public async Task<ActionResult> GetRoom(int id)
         {
-            var room = _service.RoomService.FindRoomsService(id, false);
+            var room =await _service.RoomService.FindRoomsService(id, false);
             return Ok(room);
         }
         [HttpPost]
@@ -43,9 +43,9 @@ namespace Presentation
             return CreatedAtRoute("RoomById", new { id = createdRoom.RoomId }, createdRoom);
         }
         [HttpGet("{roomId:int}/{id:int}")]
-        public ActionResult GetShopItem(int id, int roomId)
+        public async Task<ActionResult> GetShopItem(int id, int roomId)
         {
-            var item = _service.ShopItemService.FindRoomShopItemService(id, roomId, false);
+            var item =await _service.ShopItemService.FindRoomShopItemService(id, roomId, false);
             return Ok(item);
         }
 

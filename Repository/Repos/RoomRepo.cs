@@ -1,5 +1,6 @@
 ﻿using Contracts.Repo;
 using Entities.Models;
+using Microsoft.EntityFrameworkCore;
 using Repository.context;
 using System;
 using System.Collections.Generic;
@@ -15,10 +16,10 @@ namespace Repository.Repos
         {
           
         }
-        public IEnumerable<Room> GetAllRooms(bool tracking) => [.. FindAll(tracking).OrderBy(k=>k.RoomOwner)];
-        public Room FindRoom(int id, bool trackChanges)
+        public async Task<IEnumerable<Room>> GetAllRooms(bool tracking) =>await FindAll(tracking).OrderBy(k=>k.RoomOwner).ToListAsync();
+        public async Task<Room> FindRoom(int id, bool trackChanges)
         {
-            var room = FindByCondition((k=>k.RoomId.Equals(id)),trackChanges);
+            var room =await FindByCondition((k=>k.RoomId.Equals(id)),trackChanges).ToListAsync();
             return room.FirstOrDefault();
         }
         public void CreateRoom(Room room)=>CreateBase(room);

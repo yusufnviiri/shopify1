@@ -6250,7 +6250,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNetCore.Mvc.Core >= 2.3.0",
-      "Services >= 1.0.0"
+      "Services >= 1.0.0",
+      "Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6288,6 +6289,9 @@
           "projectReferences": {
             "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\Services.csproj": {
               "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\Services.csproj"
+            },
+            "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\Shared.csproj": {
+              "projectPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\Shared.csproj"
             }
           }
         }

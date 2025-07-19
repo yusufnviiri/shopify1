@@ -2077,7 +2077,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Core": "2.3.0",
-          "Services": "1.0.0"
+          "Services": "1.0.0",
+          "Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Presentation.dll": {}

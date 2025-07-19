@@ -9,8 +9,8 @@ namespace Contracts.Repo
 {
   public interface IRoomRepo
     {
-        IEnumerable<Room>GetAllRooms(bool trackChanges);
-        Room FindRoom(int id,bool trackChanges);
+       Task<IEnumerable<Room>>GetAllRooms(bool trackChanges);
+       Task< Room> FindRoom(int id,bool trackChanges);
         void CreateRoom(Room room);
     }
 }
