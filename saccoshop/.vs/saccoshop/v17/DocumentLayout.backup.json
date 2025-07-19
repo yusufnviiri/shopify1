@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\Darc\\source\\repos\\@shopify\\saccoshop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@shopify\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E37078D-26E4-48B6-8F3D-8841A03D4B58}|..\\Presentation\\Presentation.csproj|c:\\users\\darc\\source\\repos\\@shopify\\presentation\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -16,9 +19,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D31D870-C024-497F-A5C8-C0C91D76DF02}|..\\Shared\\Shared.csproj|c:\\users\\darc\\source\\repos\\@shopify\\shared\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B631997-5DF7-4FA8-9908-73EBAB0D1360}|..\\Services\\Services.csproj|c:\\users\\darc\\source\\repos\\@shopify\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0262AC5E-9978-4191-93EA-7C87D60B83F8}|..\\Repository\\Repository.csproj|c:\\users\\darc\\source\\repos\\@shopify\\repository\\repos\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -119,7 +119,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -183,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RoomController.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Presentation\\RoomController.cs",
               "RelativeDocumentMoniker": "..\\Presentation\\RoomController.cs",
@@ -295,13 +295,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "RoomService.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\RoomService.cs",
               "RelativeDocumentMoniker": "..\\Services\\RoomService.cs",
               "ToolTip": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\RoomService.cs",
               "RelativeToolTip": "..\\Services\\RoomService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwDQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwCcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T19:08:01.837Z",
               "IsPinned": true,
@@ -351,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ShopItemService.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Services\\ShopItemService.cs",
               "RelativeDocumentMoniker": "..\\Services\\ShopItemService.cs",
@@ -365,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ShopItemRepo.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Repository\\Repos\\ShopItemRepo.cs",
               "RelativeDocumentMoniker": "..\\Repository\\Repos\\ShopItemRepo.cs",
@@ -379,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IShopItemRepo.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Contracts\\Repo\\IShopItemRepo.cs",
               "RelativeDocumentMoniker": "..\\Contracts\\Repo\\IShopItemRepo.cs",
@@ -421,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RoomDto.cs",
               "DocumentMoniker": "C:\\Users\\Darc\\source\\repos\\@shopify\\Shared\\Dtos\\RoomDto.cs",
               "RelativeDocumentMoniker": "..\\Shared\\Dtos\\RoomDto.cs",

@@ -24,7 +24,8 @@ namespace Repository.Repos
                 _context.Set<T>().Where(expression);
         
        public void CreateBase(T entity)=> _context.Set<T>().Add(entity);
-      public  void UpdateBase(T entity)=> _context.Set<T>().Update(entity);
+
+        public void UpdateBase(T entity)=> _context.Set<T>().Update(entity);
       public  void DeleteBase(T entity)=> _context.Set<T>().Remove(entity);
     }
 }
