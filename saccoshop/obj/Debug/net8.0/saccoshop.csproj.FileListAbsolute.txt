@@ -6,6 +6,8 @@ C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\saccoshop.deps.js
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\saccoshop.runtimeconfig.json
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\saccoshop.dll
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\saccoshop.pdb
+C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Humanizer.dll
@@ -130,12 +132,14 @@ C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\LoggerService.dll
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Presentation.dll
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Repository.dll
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Services.dll
+C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Shared.dll
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Entities.pdb
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\LoggerService.pdb
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Presentation.pdb
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Repository.pdb
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Services.pdb
 C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Contracts.pdb
+C:\Users\Darc\source\repos\@shopify\saccoshop\bin\Debug\net8.0\Shared.pdb
 C:\Users\Darc\source\repos\@shopify\saccoshop\obj\Debug\net8.0\saccoshop.csproj.AssemblyReference.cache
 C:\Users\Darc\source\repos\@shopify\saccoshop\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Users\Darc\source\repos\@shopify\saccoshop\obj\Debug\net8.0\saccoshop.GeneratedMSBuildEditorConfig.editorconfig

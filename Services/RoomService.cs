@@ -1,8 +1,10 @@
-﻿using Contracts;
+﻿using AutoMapper;
+using Contracts;
 using Contracts.Repo;
 using Contracts.Service;
 using Entities.Models;
 using NLog;
+using Shared.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,17 +17,22 @@ namespace Services
     {
         private readonly ILoggerManager _logger;
         private readonly IRepositoryManager _repoManager;
-        public RoomService(ILoggerManager logger, IRepositoryManager repository)
+        private readonly IMapper _mapper;
+
+        public RoomService(ILoggerManager logger, IRepositoryManager repository, IMapper mapper)
         {
             _logger = logger;
             _repoManager = repository;
+            _mapper = mapper;
         }
-        public IEnumerable<Room> GetAllRoomsService(bool tracking)
+        public IEnumerable<RoomDto> GetAllRoomsService(bool tracking)
         {
             try
             {
                 var rooms = _repoManager.RoomRepo.GetAllRooms(tracking);
-                return rooms;
+                var roomsDto = _mapper.Map<IEnumerable<RoomDto>>(rooms);
+
+                return roomsDto;
             }
             catch (Exception ex) {
 

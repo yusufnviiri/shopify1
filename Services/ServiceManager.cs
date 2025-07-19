@@ -1,4 +1,5 @@
-﻿using Contracts;
+﻿using AutoMapper;
+using Contracts;
 using Contracts.Repo;
 using Contracts.Service;
 using NLog;
@@ -14,10 +15,10 @@ namespace Services
     {
         private readonly Lazy<IRoomService> _roomService;
         private readonly Lazy<IShopItemService> _shopItem;
-        public ServiceManager(ILoggerManager logger,IRepositoryManager repository)
+        public ServiceManager(ILoggerManager logger,IRepositoryManager repository, IMapper mapper)
         {
-            _roomService = new Lazy<IRoomService>(()=>new RoomService(logger,repository));
-            _shopItem = new Lazy<IShopItemService>(() => new ShopItemService(logger, repository));
+            _roomService = new Lazy<IRoomService>(()=>new RoomService(logger,repository, mapper));
+            _shopItem = new Lazy<IShopItemService>(() => new ShopItemService(logger, repository, mapper));
                 
         }   
         public IRoomService RoomService { get { return _roomService.Value; } }

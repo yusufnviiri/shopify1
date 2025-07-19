@@ -1,4 +1,5 @@
 ﻿using Entities.Models;
+using Shared.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Contracts.Service
 {
     public interface IRoomService
     {
-        IEnumerable<Room> GetAllRoomsService(bool trackChanges);
+        IEnumerable<RoomDto> GetAllRoomsService(bool trackChanges);
 
     }
 }

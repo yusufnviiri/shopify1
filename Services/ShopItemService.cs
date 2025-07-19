@@ -1,4 +1,5 @@
-﻿using Contracts;
+﻿using AutoMapper;
+using Contracts;
 using Contracts.Repo;
 using Contracts.Service;
 using NLog;
@@ -14,10 +15,13 @@ namespace Services
     {
         private readonly ILoggerManager _logger;
         private readonly IRepositoryManager _repoManager;
-        public ShopItemService(ILoggerManager logger, IRepositoryManager repository)
+        private readonly IMapper _mapper;
+
+        public ShopItemService(ILoggerManager logger, IRepositoryManager repository, IMapper mapper)
         {
             _logger = logger;
             _repoManager = repository;
+            _mapper = mapper;
         }
     }
 }
